@@ -26,6 +26,7 @@ const reward = new BigNumber(10).pow(18).multipliedBy(145).div(10).toFixed(0);
 
 async function main() {
   console.log("using address", await wallet.getAddress());
+  const marketId = "20";
 
   // creates inputs in format compatible with kalypso. Always put order inputs in order they will be loaded into the circuit
   let encoded = createInputs([pub_key, message, signature]);
@@ -38,7 +39,7 @@ async function main() {
 
   // place request on kalypso
   const askRequest = await kalypso.MarketPlace().createAsk(
-    "20",
+    marketId,
     encoded,
     reward,
     assignmentDeadline.toFixed(0),
