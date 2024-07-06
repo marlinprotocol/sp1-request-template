@@ -1,4 +1,4 @@
 {
-  "rpc": "https://arb-sepolia.g.alchemy.com/v2/l86jFYjBFWZTQMRof96TpIGigjbZMUcr",
-  "private_key": "<private key with eth for gas and fund tokens>"
+  "rpc": "https://arb-sepolia.g.alchemy.com/v2/WPcL0MatIn2ai-4O6BcJgfeuXqD7WxRi",
+  "private_key": "1a85a1804012e6d780c2da25c0d042822db69eaaad5caad79073c094fd718417"
 }
